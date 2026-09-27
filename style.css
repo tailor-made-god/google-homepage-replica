@@ -35,14 +35,68 @@ a:hover {
   margin-left: auto;
 }
 
-.header-nav li:last-child {
+/* .header-nav li:last-child {
   width: 85px;
   height: 40px;
   background-color: #0b57d0;
   color: white;
   border-radius: 20px;
+  align-self: center;
+} */
+
+.header-nav li:last-child a {
+  padding: 12.5px 22.64px;
+  background-color: #0b57d0;
+  border-radius: 20px;
+  color: white;
+}
+
+.header-nav li:nth-child(5) {
+  width: 48px;
+  height: 48px;
+}
+
+.header-nav li:nth-child(5):hover {
+  background-color: #f7f8f9;
+  border-radius: 50%;
 }
 
 .header-nav li:last-child a:hover {
   text-decoration: none;
+}
+
+.header-nav li:last-child:hover a {
+  background-color: hsla(217, 90%, 43%, 0.9);
+  box-shadow: 0 8px 4px -4px hsla(0, 0%, 82%, 0.8);
+}
+
+/* MAIN SECTION */
+
+.image-section {
+  padding-inline: 6rem;
+  justify-self: center;
+}
+
+.main-image {
+  width: 23.4375rem;
+  height: 9.375rem;
+}
+
+.share-svg {
+  padding: 7px;
+  background-color: #f7f8f9;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.search-section {
+  justify-self: center;
+}
+
+.search-box {
+  width: 38.6875rem;
+  height: 3.25rem;
+  border-radius: 32px;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0 4px 8px -2px hsla(0, 0%, 82%, 0.8);
 }
