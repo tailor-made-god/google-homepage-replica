@@ -93,10 +93,65 @@ a:hover {
   justify-self: center;
 }
 
+.search-bar {
+  position: relative;
+}
+
 .search-box {
   width: 38.6875rem;
   height: 3.25rem;
   border-radius: 32px;
   border: 1px solid #d5d5d5;
   box-shadow: 0 4px 8px -2px hsla(0, 0%, 82%, 0.8);
+}
+
+.plus-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.plus-icon:hover {
+  background-color: #f7f8f9;
+}
+
+.mic-icon {
+  display: flex;
+  position: absolute;
+  right: 156.64px;
+  top: 15px;
+}
+
+.lens-icon {
+  display: flex;
+  position: absolute;
+  right: 120.64px;
+  top: 14px;
+}
+
+.ai-search {
+  display: flex;
+  position: absolute;
+  width: 96.64px;
+  height: 36px;
+  right: 8px;
+  top: 8px;
+  background-color: #f3f4f5;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai-search:hover {
+  text-decoration: none;
+}
+.ai-search-text {
+  margin: 0;
+  padding-inline: 4px;
 }
